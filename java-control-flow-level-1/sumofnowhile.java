@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class sumofnowhile
+{
+	public static void main(String args[])
+	{  
+     Scanner sc= new Scanner(System.in);
+	 System.out.println("enter the number");
+	double total=0.0;
+	
+	 
+	 while(true){
+		
+		  System.out.println("enter the number(0 or negative to stop):");
+		  double num = sc.nextDouble();
+		  if (num <= 0){
+		  break;
+	 }
+	 total +=num;
+	 }
+	   System.out.println("total sum = "+total);
+	 
+	}
+}
